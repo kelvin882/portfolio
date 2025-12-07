@@ -172,3 +172,24 @@ nav .links a:hover {
     max-width: 250px;
   }
 }
+/* ---------- FOOTER ---------- */
+.footer {
+  width: 100%;
+  background: #0d0d0d;
+  padding: 20px 10px;
+  text-align: center;
+  border-top: 1px solid #222;
+  margin-top: 50px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+@media (max-width: 480px) {
+  .footer p {
+    font-size: 12px;
+  }
+}
+
