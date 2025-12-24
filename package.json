@@ -6,9 +6,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvin882/portfolio.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelvin882/portfolio/issues"
+  },
+  "homepage": "https://github.com/kelvin882/portfolio#readme",
   "description": "",
   "dependencies": {
     "express": "^5.2.1"

@@ -3,7 +3,7 @@ const path = require("path");
 
 const app = express();
 
-// Serve all files in this folder
+// Serve all files from current directory
 app.use(express.static(__dirname));
 
 app.listen(3000, () => {

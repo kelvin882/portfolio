@@ -1,34 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="google-adsense-account" content="ca-pub-7882215409018388">
-  <title>my portfolio website</title>
-  <link rel="stylesheet" href=CSS/home.css>
-   </head>
-  <body>
-    <nav class="navbar">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="CSS/css.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
   <div class="logo">
-    <img src="images/profile.jpg" alt="Kelvin Profile">
-    <span class="name">Apex_Creatives</span>
+    <img src="images/profile.jpg" alt="">
+    <span>Apex_Creatives</span>
   </div>
 
   <div class="nav-links">
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="contact.html">Contact</a>
-  </div>
-
-  <!-- Hamburger menu for mobile -->
-  <div class="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
   </div>
 </nav>
 
+<!-- HERO -->
+<section id="home" class="hero">
+  <!-- hero content -->
+  
   <div class="hero">
     <div class="hero-text">
       <h3>FULLSTACK DEVELOPER</h3>
@@ -40,10 +39,163 @@
       </div>
     
   </div>
+
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <!-- about content -->
+   <!-- Hamburger menu for mobile -->
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+    <section class="about" id="about">
+  <div class="about-container">
+
+    <div class="about-img">
+      <img src="images/profile1.jpg" alt="Kelvin Profile">
+    </div>
+
+    <div class="about-text">
+      <h2 class="section-title">About Me</h2>
+      <p>
+        I am Kelvin, a passionate Fullstack Web Developer who loves building 
+        modern, responsive, and user-centered websites and applications. 
+        With a strong focus on clean code and professional design, I turn 
+        ideas into functional digital products that help businesses grow.
+      </p>
+      <p>
+        I specialize in creating fullstack applications, online stores, and 
+        dynamic websites that are fast, secure, and optimized for all devices.
+      </p>
+
+      <a href="contact.html" class="about-btn">Hire Me</a>
+    </div>
+
+  </div>
+</section>
+
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+  <!-- services content -->
+   <!-- Hamburger menu for mobile -->
+  <div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</nav>
+    <section class="services" id="services">
+  <h2 class="section-title">My Services</h2>
+  <p class="section-subtitle">What I can help you build</p>
+
+  <div class="services-container">
+
+    <div class="service-card">
+      <h3>Web Development</h3>
+      <p>I build fast, responsive, and modern websites that work on all devices.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Fullstack Apps</h3>
+      <p>Complete web apps with frontend & backend, APIs, or databases.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>UI/UX Design</h3>
+      <p>Clean, user-friendly designs that offer a professional experience.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>E-Commerce Sites</h3>
+      <p>Online stores with shopping carts, payments, and admin dashboards.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Landing Pages</h3>
+      <p>High-converting landing pages for businesses and marketing campaigns.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Maintenance & Fixes</h3>
+      <p>Bug fixing, updates, performance improvements, and optimization.</p>
+    </div>
+
+  </div>
+</section>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="projects">
+  <!-- projects content -->
+    <section class="projects" id="projects">
+  <h2 class="section-title">My Projects</h2>
+  <p class="section-subtitle">A selection of my recent work</p>
+
+  <div class="projects-container">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <img src="images/online-store.jpg" alt="Online Store Project" class="project-img">
+      <div class="project-info">
+        <h3>Online Store</h3>
+        <p>A fullstack ecommerce store with product listings, cart system, and checkout.</p>
+        <a href="#" class="project-btn">View Project</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <img src="images/portfolio.jpg" alt="Portfolio Website" class="project-img">
+      <div class="project-info">
+        <h3>Portfolio Website</h3>
+        <p>A fully responsive portfolio website showcasing my skills and services.</p>
+        <a href="#" class="project-btn">View Project</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <!-- contact content -->
+     <section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p class="contact-subtitle">Let’s work together — I respond within minutes.</p>
+
+  <div class="contact-wrapper">
+
+    <!-- Left Side: Contact Info -->
+    <div class="contact-info">
+      <h3>Get In Touch</h3>
+      <p><strong>Email:</strong> Mmerukelvin@gmail.com</p>
+      <p><strong>Phone:</strong> +254 768535135</p>
+      <p><strong>Location:</strong> Meru, Kenya</p>
+    </div>
+
+    <!-- Right Side: Contact Form -->
+    <form class="contact-form" action="https://formspree.io/f/xnnebpal" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Messages</button>
+    </form>
+
+  </div>
+</section>
+</section>
+
+<!-- FOOTER -->
 <footer class="footer">
-  <p>© 2025 Apex Creatives | Designed & Developed by Kelvin K</p>
+  <p>© 2025 Apex Creatives</p>
 </footer>
 
 </body>
 </html>
-
